@@ -1,0 +1,70 @@
+@media (max-width:991px){
+    .container{
+        max-width: 800px;
+    }
+}
+@media (max-width:767px){
+    .container{
+        max-width: 600px;
+    }
+}
+@media (max-width:577px){
+    .container{
+        max-width: 500px;
+    }
+    .header{
+        &__logo{
+            width: 37%;
+        }
+        &__official{
+            font-size: 9px;
+            span{
+                font-size: 14px;
+            }
+        }
+        &__phone{
+            font-size: 15px;
+        }
+        button{
+            width: 133px;
+            height: 27px;
+            font-size: 10px;
+            margin-top: 3px;
+        }
+    }
+    .promo{
+        min-height: 200px;
+        &__wrapper{
+            margin-top: 35px;
+        }
+        &__header{
+            font-size: 32px;
+        }
+        &__subheader{
+            font-size: 17px;
+            margin-top: 7px;
+        }
+        &__icons{
+            margin-top: 30px;
+            width: 340px;
+            font-size: 12px;
+            
+        }
+        &__icon{
+            img{
+            width: 40px;
+            margin-bottom: 13px;
+            }
+        }
+        &__link{
+            margin-top: 13px;
+            font-size: 14px;
+        }
+    }
+    .button_main{
+        margin-top: 30px;
+        width: 260px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
