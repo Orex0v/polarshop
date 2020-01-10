@@ -1,15 +1,31 @@
 @import "base/variebles";
+@import "base/animations";
+
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     max-width: 950px;
     margin: 0 auto;
 }
+@import "css/animated.css";
+@import "css/bootstrap-reboot.css";
+@import "css/fonts.css";
+@import "css/slick.css";
+@import "blocks/title";
+@import "blocks/consultation";
+@import "blocks/advantages";
 @import "blocks/promo";
-@import "blocks/header.scss";
+@import "blocks/header";
 @import "blocks/buttons";
+@import "blocks/forms";
+@import "blocks/carusel";
+@import "blocks/catalog";
+@import "blocks/reviews";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
 @import "media";
-@import "blocks/advantages.scss";
